@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+table {
+    width: 1000px;
+    max-width: 90%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table thead th {
+    background-color: #111;
+    color: #fff;
+    padding: 10px;
+}
+
+table tr>td {
+    padding: 15px 10px;
+}
+
+table tr:nth-child(odd) {
+    background-color: rgba(244, 248, 252, 0.5);
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(224, 229, 235, 0.5);
+}

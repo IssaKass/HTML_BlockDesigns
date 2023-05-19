@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.counter {
+    margin-top: 20vh;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2a2e4a;
+}
+
+.counter .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.counter .count {
+    flex-basis: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+@media (min-width: 540px) {
+    .counter .count {
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .counter .count {
+        flex-basis: 25%;
+    }
+}
+
+.counter .count .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+    background-color: #131525;
+}
+
+.counter .count .icon  i {
+    font-size: 24px;
+}
+
+.counter .count h3 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.counter .count p {
+    text-transform: uppercase;
+    margin: 5px 0 40px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}

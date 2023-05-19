@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #b9c1cc;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    max-width: 90%;
+    width: 1200px;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 15px;
+}
+
+table thead tr {
+    border-bottom: 3px solid #7f8893;
+}
+
+table thead th {
+    background-color: #555c66;
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.2rem;
+    border: 1px dotted #7f8893;
+}
+
+table tbody td {
+    color: #fff;
+    background-color: #292d33;
+    border: 1px dotted #7f8893;
+}
